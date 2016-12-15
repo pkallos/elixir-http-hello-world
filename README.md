@@ -1,24 +1,10 @@
 # Elixirhttp
 
-**TODO: Add description**
+Just a hello world application written in elixir-lang.
 
-## Installation
+Run with
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add `elixirhttp` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:elixirhttp, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `elixirhttp` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:elixirhttp]]
-    end
-    ```
-
+```bash
+mix run --no-halt
+```
+Server runs by default on :8080
